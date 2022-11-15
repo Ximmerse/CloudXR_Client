@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloudxr_client.iml" filepath="$PROJECT_DIR$/.idea/modules/cloudxr_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/cloudxr_client.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/cloudxr_client.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libnativeplugin/cloudxr_client.libnativeplugin.iml" filepath="$PROJECT_DIR$/.idea/modules/libnativeplugin/cloudxr_client.libnativeplugin.iml" />
+    </modules>
+  </component>
+</project>

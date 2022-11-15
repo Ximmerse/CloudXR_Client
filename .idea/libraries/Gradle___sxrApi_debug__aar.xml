@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="Gradle: :sxrApi-debug:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e926ac652e31ea9b6a982f51ef1a96fa/sxrApi-debug/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e926ac652e31ea9b6a982f51ef1a96fa/sxrApi-debug/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e926ac652e31ea9b6a982f51ef1a96fa/sxrApi-debug/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/83917f798cab09d6dd2cf900c1b18dd3/sxrApi-debug/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/83917f798cab09d6dd2cf900c1b18dd3/sxrApi-debug/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/83917f798cab09d6dd2cf900c1b18dd3/sxrApi-debug/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/50c5f3d122dcbfe305f6f6a794552e2e/sxrApi-debug/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/50c5f3d122dcbfe305f6f6a794552e2e/sxrApi-debug/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/50c5f3d122dcbfe305f6f6a794552e2e/sxrApi-debug/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6b12351d49b7567ed31f5db2eaaf5115/sxrApi-debug/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6b12351d49b7567ed31f5db2eaaf5115/sxrApi-debug/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6b12351d49b7567ed31f5db2eaaf5115/sxrApi-debug/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

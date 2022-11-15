@@ -1,0 +1,12 @@
+com.ximmerse.xedgelink
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
+color ic_launcher_cxr_background
+mipmap ic_launcher
+mipmap ic_launcher_cxr
+mipmap ic_launcher_cxr_foreground
+mipmap ic_launcher_cxr_round
+mipmap ic_launcher_round
+string app_name
+style AppTheme

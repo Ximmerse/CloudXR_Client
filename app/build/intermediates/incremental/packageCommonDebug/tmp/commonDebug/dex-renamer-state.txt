@@ -1,0 +1,7 @@
+#Tue Nov 15 20:33:10 CST 2022
+base.1=D\:\\wuyc\\Private_SDK\\XMS_SDK\\cloud-xr\\cloudxr\\cloudxr_client\\app\\build\\intermediates\\dex\\commonDebug\\mergeProjectDexCommonDebug\\classes.dex
+path.1=classes.dex
+base.0=D\:\\wuyc\\Private_SDK\\XMS_SDK\\cloud-xr\\cloudxr\\cloudxr_client\\app\\build\\intermediates\\dex\\commonDebug\\mergeExtDexCommonDebug\\classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

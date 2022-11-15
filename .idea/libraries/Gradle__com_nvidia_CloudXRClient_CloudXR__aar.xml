@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.nvidia.CloudXRClient:CloudXR:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4fc1ea1d0e5245574f6ad8ca6c16726e/CloudXR/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4fc1ea1d0e5245574f6ad8ca6c16726e/CloudXR/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4fc1ea1d0e5245574f6ad8ca6c16726e/CloudXR/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ec0cb8f2c1420481e15a67712a99b424/CloudXR/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ec0cb8f2c1420481e15a67712a99b424/CloudXR/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ec0cb8f2c1420481e15a67712a99b424/CloudXR/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

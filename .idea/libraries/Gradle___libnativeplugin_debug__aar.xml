@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: :libnativeplugin-debug:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/790f4340eed9fc0844a39825dacb94a1/libnativeplugin-debug/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/86d485473155418a4c3ed13edb5e5637/libnativeplugin-debug/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/86d485473155418a4c3ed13edb5e5637/libnativeplugin-debug/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/86d485473155418a4c3ed13edb5e5637/libnativeplugin-debug/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
