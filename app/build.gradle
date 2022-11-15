@@ -1,0 +1,74 @@
+apply plugin: 'com.android.application'
+
+def releaseTime() {
+    return new Date().format("yyyyMMdd", TimeZone.getTimeZone("UTC"))
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "29.0.3"
+    android.ndkVersion "21.1.6352462"
+    defaultConfig {
+        applicationId "com.ximmerse.xedgelink"
+        minSdkVersion 26
+        targetSdkVersion 30
+        versionCode 24
+        versionName "0.1"
+        setProperty("archivesBaseName", "X-EdgeLink")
+        manifestPlaceholders = ["orientation": "landscape"]
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        ndk.abiFilters "arm64-v8a"
+        ndk.stl "stlport_static"
+    }
+
+
+    packagingOptions {
+        pickFirst 'lib/arm64-v8a/libc++_shared.so'
+    }
+
+    repositories {
+        flatDir {
+            dirs projectDir.path + "/libs"
+        }
+    }
+
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            debuggable = true
+            jniDebuggable = true
+        }
+
+    }
+
+    flavorDimensions "screenOrientation"
+
+    productFlavors {
+        common {
+//            buildConfigField "boolean", "AUTO_UPDATES", "false"
+        }
+    }
+
+    productFlavors.all {
+        flavor -> flavor.manifestPlaceholders = [TD_CHANNEL_ID_VALUE: name]
+    }
+
+    android.applicationVariants.all { variant ->
+        variant.outputs.all {
+            outputFileName = "${archivesBaseName}_${variant.buildType.name}_v${variant.versionName}_${releaseTime()}.apk"
+        }
+
+    }
+
+}
+
+dependencies {
+    debugImplementation(name: 'sxrApi-debug', ext: 'aar')
+    implementation 'com.nvidia.CloudXRClient:CloudXR@aar'
+    debugImplementation(name: 'libnativeplugin-debug', ext: 'aar')
+}
